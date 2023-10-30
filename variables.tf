@@ -39,3 +39,20 @@ variable "fernet_key" {
   type        = string
   description = "Key for encrypting data in the database - see Airflow docs"
 }
+
+
+variable "security_group_one" {
+  type    = string
+  default = "default_value" # You can set a default value if needed
+}
+
+variable "security_group_three" {
+  type    = string
+  default = "default_value"
+}
+
+variable "security_group_two" {
+  type    = string
+  default = "default_value"
+}
+
